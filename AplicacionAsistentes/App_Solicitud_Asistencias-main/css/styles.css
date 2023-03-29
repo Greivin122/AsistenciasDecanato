@@ -1,0 +1,43 @@
+#wrapper {
+    overflow-x: hidden;
+  }
+  
+  #sidebar-wrapper {
+    min-height: 100vh;
+    margin-left: -15rem;
+    margin-top: -50px;
+    padding-top: 50px;
+  }
+  
+  #sidebar-wrapper .list-group {
+    width: 12rem;
+  }
+  
+  #page-content-wrapper {
+    min-width: 100vw;
+  }
+  
+  
+  @media (min-width: 768px) {
+    #sidebar-wrapper {
+      margin-left: 0;
+    }
+  
+    #page-content-wrapper {
+      min-width: 0;
+      width: 100%;
+      margin-top: -50px;
+      padding-top: 50px;
+    }
+  
+  }
+
+  #edit_button{
+    color: blue;
+  }
+
+  #delete_button{
+    margin-left: 2vw;
+    color: red;
+  }
+  
